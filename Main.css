@@ -1,12 +1,23 @@
 h1{color:red;
-    background-color:#000000}
-    h2{color:rgb(255,255,255);
-      background-color:hsl(120,100%,50%)}
-    h3{background-color:yellow}
-    p{color:hsl(195, 100%, 48%, 0.81)}
-    ul{color:hsl(13, 100%, 58%, 0.81)}
-    ol{color:lightgray;
-    background-color:hsl(0, 100%, 100%)}
-    body{background-color:hsl(303, 85%, 34%, 1 )} 
-    /* body{background-color:#a00d99} this is the hex code*/ 
-    
+  background-color:#000000;
+    font-size: 40px; text-align: center}
+  h2{color:rgb(255,255,255);
+    background-color:hsl(120,100%,50%); 
+    font-weight:bold; 
+    text-decoration: blue underline  wavy;
+    text-transform: lowercase}
+  h3{background-color:yellow ; 
+  font-style: italic;
+  text-shadow: 3px 1px 1px orange;
+  line-height:1.35;
+  word-spacing: .80em}
+  p{color:hsl(195, 100%, 48%, 0.81);
+  font-variant:small-caps;}
+  ul{color:hsl(13, 100%, 58%, 0.81);
+  letter-spacing:0.025em}
+  ol{color:lightgray;
+  background-color:hsl(0, 100%, 100%);
+    letter-spacing:0.0625em}
+  body{background-color:hsl(303, 85%, 34%, 1 )} 
+  /* body{background-color:#a00d99} this is the hex code*/ 
+  
